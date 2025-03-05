@@ -28,6 +28,7 @@ public class Start{
     @Given("the request body from {string} is set")
     public void the_request_body_from_is_set(String filePathUpdate) {
         requestBodyFile = new File(filePathUpdate);
+
     }
 
     @When("I send a POST request to {string}")
