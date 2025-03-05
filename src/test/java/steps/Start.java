@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 
 public class Start{
     private Response response;
-//    private String baseUrl;
+    private String baseUrl;
     private File requestBodyFile;
 
     @Given("the API base URL is {string}")
